@@ -1,8 +1,9 @@
+<div class ="column">
 <div class="card">
   <% if customer.image.present?%>
     <div class="card-image">
      <figure class="image is-4by3">
-       <%image_tag customer.image%>
+       <%= image_tag customer.image%>
      </figure>
    </div>
   <%end%>
@@ -17,4 +18,5 @@
      <%=customer.notes%>
     </div>
   </div>
+</div>
 </div>
